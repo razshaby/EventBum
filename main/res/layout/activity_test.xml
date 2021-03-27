@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity_test"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/test_LST_test"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/test_LST_test_down"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+    </ListView>
+
+    <EditText
+        android:id="@+id/test_EDT_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="הכנס id"/>
+    <EditText
+        android:id="@+id/test_EDT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="הכנס שם"/>
+
+    <EditText
+        android:id="@+id/test_EDT_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="הכנס מספר"/>
+    <Button
+        android:id="@+id/test_BTN_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הוספה"
+        />
+
+    <Button
+        android:id="@+id/test_BTN_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="קריאה"
+        />
+    <Button
+        android:id="@+id/test_BTN_makeSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הפעל צליל"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        />
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

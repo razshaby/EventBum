@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EventBum</string>
+    <string name="welcome_message">ברוכים הבאים לאפליקציית שיתוף התמונות הטובה בישראל!\n
+        בעזרת קוד שיתוף פשוט תוכלו לצפות בתמונות, להעלות תמונות ולהיות חלק מיום שלא ישכח!</string>
+    <string name="click_to_start_the_party">לחצו להתחיל במסיבה</string>
+    <string name="ok">אישור</string>
+    <string name="createNewCode"><u>חדשים פה? צרו קוד חדש לאירוע חדש!</u></string>
+    <string name="enterCode_message">הכניסו את קוד השיתוף ותהיו חלק מהמסיבה:</string>
+    <string name="enterDetails">הכניסו כמה נתונים וכבר מתחילים:</string>
+    <string name="email_twoPoints">אימייל:</string>
+    <string name="selectCode">בחרו קוד שיתוף סוד</string>
+    <string name="shareCodeSecretly">קוד שיתוף סודי</string>
+    <string name="startParty">התחילו במסיבה</string>
+    <string name="take_photo">צלם תמונה</string>
+    <string name="choose_photo_from_galary">בחר תמונה מהגלריה</string>
+    <string name="cancle">ביטול</string>
+    <string name="enterloginDetails">הכניסו אימייל וסיסמה:</string>
+    <string name="login">התחבר</string>
+    <string name="registered"><u>רשומים? לחצו כאן כדי להתחבר</u></string>
+    <string name="name"><font size="12">שם</font></string>
+    <string name="email"><font size="12">אימייל</font></string>
+    <string name="password"><font size="12">סיסמה</font></string>
+    <string name="passwordValidation"><font size="12">אימות סיסמה</font></string>
+    <string name="eventName"><font size="12">שם אירוע</font></string>
+
+    <string name="logOut">התנתק</string>
+    <string name="register">הרשמה</string>
+    <string name="myAlbums">האלבומים שלי</string>
+    <string name="addAlbum">הוספת אלבום</string>
+
+</resources>
+

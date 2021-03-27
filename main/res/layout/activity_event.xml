@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".activities.Activity_Event">
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/event_LBL_eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/event_RCLV_imagesRCLV"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/regularTextSize" />
+
+    //Not in use
+    <ImageView
+        android:id="@+id/event_IMG_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        app:layout_collapseMode="parallax"
+        app:layout_collapseParallaxMultiplier="0.7" />
+
+
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/event_BTN_addImage"-->
+<!--        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"-->
+<!--        android:layout_width="@dimen/button_layout_width"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:icon="@drawable/plus"-->
+<!--        app:iconTint="@null"-->
+<!--        android:layout_alignLeft="@+id/event_RCLV_imagesRCLV"-->
+<!--        android:layout_alignBottom="@+id/event_RCLV_imagesRCLV"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/event_RCLV_imagesRCLV"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+       android:layout_marginEnd="10dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_floatingactionbutton_addImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right|left"
+        app:srcCompat="@drawable/plus"
+        android:layout_alignLeft="@+id/event_RCLV_imagesRCLV"
+        android:layout_alignBottom="@+id/event_RCLV_imagesRCLV"
+        app:backgroundTint="@color/white"
+        android:tint="@color/black"
+        android:layout_marginEnd="15sp"
+        android:layout_marginBottom="20sp"
+
+        />
+
+</RelativeLayout>

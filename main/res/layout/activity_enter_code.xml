@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".activities.Activity_enterCode">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/enterCode_LBL_enterCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/enterCode_message"
+            android:textSize="20sp"
+
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enterCode_EDT_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterCode_LBL_enterCode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="100sp"
+            android:gravity="center"
+            android:hint="קוד שיתוף" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/enterCode_BTN_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterCode_EDT_code"
+            android:layout_centerInParent="true"
+            android:layout_margin="20sp"
+            android:text="@string/ok" />
+
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/enterCode_LBL_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterCode_BTN_ok"
+            android:layout_centerInParent="true"
+            android:layout_margin="20sp"
+            android:gravity="center"
+            android:text="@string/registered"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
